@@ -45,7 +45,7 @@ rtm.prosaild <- function(pars){
 
 rtm.prosail2_55 <- function(pars){
     
-    LS <- prospect5(pars[["prosail5"]])
+    #LS <- prospect5(pars[["prosail5"]])
     LS <- prospect5(pars[["prosail5"]])
 
     foursail(LS[,"rho"],LS[,"tau"],pars[["foursail"]])
